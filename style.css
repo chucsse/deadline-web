@@ -12,7 +12,7 @@ body{
     background-attachment: fixed;
 }
 .tieude{
-    color:rgb(8, 8, 8);
+    color:rgb(12, 12, 7);
     margin-left: 140px;
     margin-top: -55px;
 }
@@ -147,12 +147,14 @@ div.tieude{
 }
 span.rk1{
     color:rgb(0, 0, 0);
-    background-color: red;
+    background-color: rgb(155, 105, 105);
+    font-size: 30px;
 }
 span.rk2{
     color:rgb(0, 0, 0);
-    background-color: red;
-    margin-left:485px;
+    background-color: rgb(155, 105, 105);
+    margin-left:405px;
+    font-size: 30px;
 }
 div.icon-follow{
     background-color: #385998;
@@ -219,20 +221,63 @@ div.icon-follow-youtube:hover{
     border:1px solid rgb(255, 255, 255);
 }
 .first{
-    font-size:50px;
-    display:block;
-    margin-left:200px;
+    font-size:47px;
+    margin-left:15px;
+}
+.line{
+    margin-top: 30px;
+    border-bottom-width: initial;
+    border-bottom-style: double;
+    border-bottom-color: initial;
+}
+.second{
+    margin-left:15px;
+    margin-top:10px;
+}
+.thirdly{
+    margin-left:30px;
+    margin-top:20px;
+}
+.content{
+    margin-left:30px;
+    margin-top:10px;
+}
+.khung6{
+    background-color: rgb(207, 186, 154);
+    width:300px;
+    height: 700px;
 }
 .anh2{
     width:200px;
     height:300px;
-    margin-top:50px;
-    margin-left:300px
+    margin-top:20px;
+    margin-left:50px;
 }
-.thongtin{
-    margin-left:200px;
-    margin-top:60px;
-    line-height: 30px;
+.contact{
+    color:rgb(63, 57, 97);
+    margin-top:30px;
+    margin-left:20px;
+    font-size: 35px;
+}
+.khung7{
+    display:grid;
+}
+.fa{
+    font-size: 22px;
+    margin-left: 40px;
+    margin-top:20px;
+}
+.fab{
+    font-size: 22px;
+    margin-left: 40px;
+    margin-top:20px;
+}
+.khung8{
+    background-color: rgb(228, 201, 163);
+    width:430px;
+    height: 700px;
+    margin-top:-700px;
+    margin-left:310px
 }
 .khoitrangchu4{
     background-color: rgb(214 194 194 / 55%);
@@ -259,4 +304,16 @@ div.icon-follow-youtube:hover{
 .canchinh{
     background-color: rgb(216, 201, 201);
     margin-left:5px;
+}
+.line2{
+    margin-top: 0px;
+    border-bottom-width: initial;
+    border-bottom-style: double;
+    border-bottom-color: initial;
+}
+.donate{
+    display:grid;
+    font-size: 30px;
+    margin-top:170px;
+    margin-left:100px;
 }
